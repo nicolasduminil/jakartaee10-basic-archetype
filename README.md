@@ -49,6 +49,6 @@ An integration test is provided as well. You can run it as follows:
 
 Notice that the integration test, named `MyResourceIT`, is using testcontainers to run a Docker image of `payara/server-full:6.2022.1` in which we deploy our WAR. Accrodingly, the WAR has to exist at that moment, meaning that you should already have run the package Maven goal. This is done by the script build.sh, as explained above, but if you need to execute manually this goal, what ever the reason might be, than you might need to skip the tests execution.
 
-Last but not least, by browsing to http://localhost:8080/test, or by running the `curl get` command to this same URL, you will see the index.jsp file, deployed with the web application.
+Last but not least, by browsing to http://localhost:8080/test, or by running the `curl get` command to this same URL, you will see the `index.jsp` file, deployed with the web application.
 
 Enjoy !
