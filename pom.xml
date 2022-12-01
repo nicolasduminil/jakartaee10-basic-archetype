@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.simplex-software.archetypes</groupId>
+  <artifactId>jakartaee10-basic-archetype</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Basic Java EE 10 project archetype</name>
+  <url>http://nicolasduminil.blogspirit.com</url>
+  <organization>
+    <name>Simplex Software EURL</name>
+    <url>http://nicolasduminil.blogspirit.com</url>
+  </organization>
+  <inceptionYear>2022</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Nicolas DUMINIL</name>
+      <organization>simplex-software.fr</organization>
+      <organizationUrl>http://nicolasduminil.blogspirit.com</organizationUrl>
+    </developer>
+  </developers>
+  <packaging>maven-archetype</packaging>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.1.1</version>
+      </extension>
+    </extensions>
+  </build>
+</project>
