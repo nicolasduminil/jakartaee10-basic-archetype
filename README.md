@@ -12,7 +12,7 @@ Once that the archetype is installed, you can use it in order to generate a proj
 
     $ mkdir basic
     $ cd basic
-    $ ../.../generate.sh
+    $ ../generate.sh
 
 This will execute the following maven command:
 
